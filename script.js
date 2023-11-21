@@ -1,10 +1,10 @@
 //your JS code here. If required.
-const btnElement =document.getElementById("openModel");
+const btnElement =document.getElementById("open Model");
 const boxModel = document.getElementById("boxModel") ;
 btnElement.addEventListener("click", ()=>{
 	boxModel.style.display="flex";
 })
-const closeElement = document.getElementById("close") ;
+const closeElement = document.getElementById("close button") ;
 closeElement.addEventListener("click", ()=>{
 	boxModel.style.display="none";
 })
