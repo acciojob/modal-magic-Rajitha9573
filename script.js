@@ -4,7 +4,7 @@ const boxModel = document.getElementById("boxModel") ;
 btnElement.addEventListener("click", ()=>{
 	boxModel.style.display="flex";
 })
-const closeElement = document.getElementById("close button") ;
+const closeElement = document.getElementById("close-button") ;
 closeElement.addEventListener("click", ()=>{
 	boxModel.style.display="none";
 })
